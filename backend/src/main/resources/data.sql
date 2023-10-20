@@ -17,3 +17,8 @@ INSERT INTO tb_course (name, img_Uri, img_Gray_Uri) VALUES (
 'Bootcamp HTML',
 'https://www.learncomputing.org/images/computerscience.jpg',
 'https://images.rawpixel.com/image_500/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTAzL2pvYjk3MS1lbGVtZW50LTIwMC12XzIuanBn.jpg');
+
+INSERT INTO tb_offer (edition, start_Moment, end_Moment, course_id) VALUES (
+'1.0', TIMESTAMP WITH TIME ZONE '2023-11-28T03:00:00Z', TIMESTAMP WITH TIME ZONE '2024-11-28T03:00:00Z', 1);
+INSERT INTO tb_offer (edition, start_Moment, end_Moment, course_id) VALUES (
+'2.0', TIMESTAMP WITH TIME ZONE '2023-12-13T03:00:00Z',TIMESTAMP WITH TIME ZONE '2024-12-13T03:00:00Z', 1);
