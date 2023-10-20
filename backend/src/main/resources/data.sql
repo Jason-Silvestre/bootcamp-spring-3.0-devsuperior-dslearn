@@ -1,6 +1,9 @@
-INSERT INTO tb_user (name,email, password) VALUES ('Alex Brown','alex@gmail.com', '$2a$10$eACCYoNOHEqXve8aIWT8Nu3PkMXWBaOxJ9aORUYzfMQCbVBIhZ8tG');
-INSERT INTO tb_user (name,email, password) VALUES ('Bob Brown','bob@gmail.com', '$2a$10$eACCYoNOHEqXve8aIWT8Nu3PkMXWBaOxJ9aORUYzfMQCbVBIhZ8tG');
-INSERT INTO tb_user (name,email, password) VALUES ('Maria Green','maria@gmail.com', '$2a$10$eACCYoNOHEqXve8aIWT8Nu3PkMXWBaOxJ9aORUYzfMQCbVBIhZ8tG');
+INSERT INTO tb_user (name,email, password) VALUES (
+'Alex Brown','alex@gmail.com', '$2a$10$eACCYoNOHEqXve8aIWT8Nu3PkMXWBaOxJ9aORUYzfMQCbVBIhZ8tG');
+INSERT INTO tb_user (name,email, password) VALUES (
+'Bob Brown','bob@gmail.com', '$2a$10$eACCYoNOHEqXve8aIWT8Nu3PkMXWBaOxJ9aORUYzfMQCbVBIhZ8tG');
+INSERT INTO tb_user (name,email, password) VALUES (
+'Maria Green','maria@gmail.com', '$2a$10$eACCYoNOHEqXve8aIWT8Nu3PkMXWBaOxJ9aORUYzfMQCbVBIhZ8tG');
 
 INSERT INTO tb_role (authority) VALUES ('ROLE_STUDENT');
 INSERT INTO tb_role (authority) VALUES ('ROLE_INSTRUCTOR');
@@ -46,3 +49,28 @@ INSERT INTO tb_resource (title, description, position, img_Uri, type, offer_id) 
 'https://www.learncomputing.org/images/computerscience.jpg',
 0,
 1);
+
+INSERT INTO tb_section (title, description, position, img_Uri, resource_id, prerequisite_id) VALUES (
+'Capítulo 1',
+'Neste capítulo vamos começar',
+1,
+'https://www.learncomputing.org/images/computerscience.jpg',
+1,
+null);
+
+INSERT INTO tb_section (title, description, position, img_Uri, resource_id, prerequisite_id) VALUES (
+'Capítulo 2',
+'Neste capítulo vamos continuar',
+2,
+'https://www.learncomputing.org/images/computerscience.jpg',
+1,
+1);
+
+INSERT INTO tb_section (title, description, position, img_Uri, resource_id, prerequisite_id) VALUES (
+'Capítulo 3',
+'Neste capítulo vamos finalizar',
+3,
+'https://www.learncomputing.org/images/computerscience.jpg',
+1,
+2);
+
