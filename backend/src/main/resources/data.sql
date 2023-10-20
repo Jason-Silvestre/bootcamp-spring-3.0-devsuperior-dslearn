@@ -22,3 +22,27 @@ INSERT INTO tb_offer (edition, start_Moment, end_Moment, course_id) VALUES (
 '1.0', TIMESTAMP WITH TIME ZONE '2023-11-28T03:00:00Z', TIMESTAMP WITH TIME ZONE '2024-11-28T03:00:00Z', 1);
 INSERT INTO tb_offer (edition, start_Moment, end_Moment, course_id) VALUES (
 '2.0', TIMESTAMP WITH TIME ZONE '2023-12-13T03:00:00Z',TIMESTAMP WITH TIME ZONE '2024-12-13T03:00:00Z', 1);
+
+INSERT INTO tb_resource (title, description, position, img_Uri, type, offer_id) VALUES (
+'Trilha HTML',
+'trilha principal do curso',
+1,
+'https://www.learncomputing.org/images/computerscience.jpg',
+1,
+1);
+
+INSERT INTO tb_resource (title, description, position, img_Uri, type, offer_id) VALUES (
+'Forum',
+'Tire suas dúvidas',
+2,
+'https://www.learncomputing.org/images/computerscience.jpg',
+2,
+1);
+
+INSERT INTO tb_resource (title, description, position, img_Uri, type, offer_id) VALUES (
+'Lives',
+'Lives exclusivas para a turma',
+3,
+'https://www.learncomputing.org/images/computerscience.jpg',
+0,
+1);
