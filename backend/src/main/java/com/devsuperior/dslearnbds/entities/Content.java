@@ -8,7 +8,7 @@ import javax.persistence.Table;
 public class Content extends Lesson {
     private static final long serialVersionUID = 1L;
 
-    private String textConten;
+    private String textContent;
     private String videoUri;
 
     public Content() {
@@ -16,16 +16,16 @@ public class Content extends Lesson {
 
     public Content(Long id, String title, Integer position, Section section, String textConten, String videoUri) {
         super(id, title, position, section);
-        this.textConten = textConten;
+        this.textContent = textConten;
         this.videoUri = videoUri;
     }
 
-    public String getTextConten() {
-        return textConten;
+    public String getTextContent() {
+        return textContent;
     }
 
-    public void setTextConten(String textConten) {
-        this.textConten = textConten;
+    public void setTextContent(String textContent) {
+        this.textContent = textContent;
     }
 
     public String getVideoUri() {
