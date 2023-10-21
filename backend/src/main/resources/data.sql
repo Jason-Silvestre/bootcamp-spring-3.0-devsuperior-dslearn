@@ -74,3 +74,18 @@ INSERT INTO tb_section (title, description, position, img_Uri, resource_id, prer
 1,
 2);
 
+INSERT INTO tb_enrollment (user_id, offer_id, enroll_Moment, refund_Moment, available, only_Update) VALUES (
+1,
+1,
+TIMESTAMP WITH TIME ZONE '2023-11-28T13:00:00Z',
+null,
+true,
+false);
+
+INSERT INTO tb_enrollment (user_id, offer_id, enroll_Moment, refund_Moment, available, only_Update) VALUES (
+2,
+1,
+TIMESTAMP WITH TIME ZONE '2023-11-28T13:00:00Z',
+null,
+true,
+false);
