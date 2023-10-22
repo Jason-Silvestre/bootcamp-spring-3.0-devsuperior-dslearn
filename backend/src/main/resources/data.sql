@@ -95,3 +95,19 @@ INSERT INTO tb_deliver (uri, moment, status, feedback, correct_Count, lesson_id,
 'https://github.com/devsuperior/bds-dslearn',
 TIMESTAMP WITH TIME ZONE '2023-11-28T10:00:00Z',
 0, null, null, 4, 1, 1);
+
+INSERT INTO tb_topic (title, body, moment, author_id, offer_id, lesson_id) VALUES (
+'Titulo do tópico 1', 'Corpo do tópico 1',TIMESTAMP WITH TIME ZONE '2023-11-28T13:00:00Z', 1, 1, 1);
+INSERT INTO tb_topic (title, body, moment, author_id, offer_id, lesson_id) VALUES (
+'Titulo do tópico 2', 'Corpo do tópico 2', TIMESTAMP WITH TIME ZONE '2023-11-28T13:00:00Z', 2, 1, 1);
+INSERT INTO tb_topic (title, body, moment, author_id, offer_id, lesson_id) VALUES (
+'Titulo do tópico 3', 'Corpo do tópico 3', TIMESTAMP WITH TIME ZONE '2023-11-28T13:00:00Z', 2, 1, 1);
+INSERT INTO tb_topic (title, body, moment, author_id, offer_id, lesson_id) VALUES (
+'Titulo do tópico 4', 'Corpo do tópico 4', TIMESTAMP WITH TIME ZONE '2023-11-28T13:00:00Z', 1, 1, 2);
+INSERT INTO tb_topic (title, body, moment, author_id, offer_id, lesson_id) VALUES (
+'Titulo do tópico 5', 'Corpo do tópico 5', TIMESTAMP WITH TIME ZONE '2023-11-28T13:00:00Z', 1, 1, 2);
+INSERT INTO tb_topic (title, body, moment, author_id, offer_id, lesson_id) VALUES (
+'Titulo do tópico 6', 'Corpo do tópico 6', TIMESTAMP WITH TIME ZONE '2023-11-28T13:00:00Z', 2, 1, 3);
+
+INSERT INTO tb_topic_likes (topic_id, user_id) VALUES (1, 2);
+INSERT INTO tb_topic_likes (topic_id, user_id) VALUES (2, 1);
