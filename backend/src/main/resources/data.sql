@@ -90,3 +90,8 @@ TIMESTAMP WITH TIME ZONE '2023-11-28T13:00:00Z',
 true,
 '/offers/1/resourece/1/sections/1',
 1);
+
+INSERT INTO tb_deliver (uri, moment, status, feedback, correct_Count, lesson_id, user_id, offer_id) VALUES (
+'https://github.com/devsuperior/bds-dslearn',
+TIMESTAMP WITH TIME ZONE '2023-11-28T10:00:00Z',
+0, null, null, 4, 1, 1);
